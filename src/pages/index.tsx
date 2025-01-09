@@ -66,7 +66,7 @@ export default function Home() {
               </Heading>
               
               <FormControl>
-                <FormLabel>Current DPY (%)</FormLabel>
+                <FormLabel>Your Current DPY (%)</FormLabel>
                 <Input
                   type="number"
                   step="0.01"
@@ -87,7 +87,7 @@ export default function Home() {
               </FormControl>
 
               <FormControl>
-                <FormLabel>R-APR Reward Amount</FormLabel>
+                <FormLabel>Current R-APR Reward Amount</FormLabel>
                 <Input
                   type="number"
                   value={raprReward}
@@ -97,7 +97,7 @@ export default function Home() {
               </FormControl>
 
               <FormControl>
-                <FormLabel>R-APR Balance (Optional)</FormLabel>
+                <FormLabel>R-APR Balance (Uncompounded)</FormLabel>
                 <Input
                   type="number"
                   value={raprBalance}
